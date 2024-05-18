@@ -1,0 +1,33 @@
+.sec-two{
+    margin-top: 68px;
+}
+.sec-two .text-sec2 h6{
+    width: 1240px;
+    letter-spacing: normal;
+    word-spacing: 1.5px;
+    line-height: 1.5em;
+    position: relative;
+    top: 10px
+}
+.sec-8 .sec8it{
+    margin-top: 80px;
+    margin-left:20px ;
+}
+
+
+.sec-8 .sec8it .texxt h5{
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 30px;
+    position: relative;
+    top: 20px;
+}
+.sec-8 .sec8it .texxt h2{
+    position: relative;
+    bottom: -25px;
+    color:#03a4ed;
+    font-size: 35px;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}

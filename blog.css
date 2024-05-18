@@ -1,0 +1,65 @@
+.sec-one{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+    margin-bottom: 20px;
+    /* overflow: hidden; */
+}
+section .sec-one .img img{
+    padding-top: 60px;
+    margin-right: 55px;
+    width: 600px;
+    height: 500px;
+}
+section .sec-one .text-sec1{
+    box-sizing: border-box;
+    width: 599px;
+}
+.text-sec1 h6{
+    position: relative;
+    top:12px;
+    line-height: 1.6em;
+    width:600px;
+    letter-spacing: normal;
+}
+section .sec-one .text-sec1 button{
+    width: 200px;
+    position: relative;
+    top: 12px;
+    font-size: 22px;
+}
+
+.sec-blog{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 48px;
+}
+
+.sec-blog .img{
+    padding: 32px 0px;
+    margin
+
+}
+.sec-blog .img img{
+    width: 400px;
+}
+.sec-blog .textarea{
+    padding-left: 40px;
+}
+.sec-blog .textarea h1{
+    letter-spacing: normal;
+    color: #03a4ed;
+    font-size: 30px;
+    font-weight: 600;
+}
+.sec-blog .textarea h6{
+    padding-top: 20px;
+    font-size: 14px;
+}
+.sec-blog .textarea h5{
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 20px;
+    line-height: 1.6em;
+}

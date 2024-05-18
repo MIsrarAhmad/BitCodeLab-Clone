@@ -1,0 +1,25 @@
+.sec-one .text-sec1{
+    width:616px;
+    height: 224px;
+    font-weight: 500;
+    letter-spacing: 0.15px;
+    line-height: 32px;
+}
+.sec-threebox{
+    display: flex;
+}
+.sec-one .img{
+    margin: 0;
+    padding: 0;
+    width: 700px;
+}
+.sec-one .img img{
+    width: 600px;
+    height: 600px;
+}
+.sec-one .text-sec1 h6{
+    line-height: 1.5em;
+    width:650px;
+    letter-spacing: normal;
+    word-spacing: 4px;
+}

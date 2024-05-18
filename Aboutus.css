@@ -1,0 +1,27 @@
+.sec-5{
+    background-color: #031923;
+    margin:100px 0 0 0 ;
+    padding: 60px;
+}
+.sec-5 .section5 .abline{
+    position: relative;
+    top: 00px;
+}
+header{
+    margin: 0;
+}
+.section4 .line{
+    position: relative;
+}
+.sec-one .text-sec1 h6{
+    width:630px;
+    letter-spacing: normal;
+    word-spacing: 3px;
+    line-height: 1.5em;
+    margin-top: 20px;
+}
+.sec-one .img img{
+    padding-left: 52px;
+    height: 700px;
+    width: 700px;
+}

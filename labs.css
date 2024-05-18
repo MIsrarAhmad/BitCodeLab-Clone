@@ -1,0 +1,855 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: lato, sans-serif;
+}
+
+body{
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    padding: 0px 24px ;
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    font-family: lato, sans-serif;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 6%;
+    margin: 0px;
+    margin-right:14px;
+    z-index: 1;
+    background-color: #000;
+    overflow:hidden;
+}
+
+.logo img{
+    width: 150px;
+    height: 100px;
+    margin-left: 60px;
+}
+nav a{
+    text-decoration:none;
+    display: inline-block;
+    color: #fff;
+    padding:10px 20px;
+    font-weight: 600;
+    margin-left:5px ;
+
+}
+.nav a:hover{
+    color: #007aff;
+}
+.text{
+    color: #fff;
+}
+/* secton 1 */
+.sec-one{
+    display:flex;
+    justify-content: space-between;
+    width: 92%;
+    margin-top:200px;
+    margin-left:59px;
+    margin-right:59px;
+    
+}
+.sec-one img{
+    width: 680px;
+    height: 450px;
+    position: relative;
+    top: -20%;
+    left: 5%;
+}
+.text-sec1{
+    display:block;
+    width:35%;
+    /* background-color: #fff; */
+}
+h1{
+    font-size: 48px;
+    color: white;
+    letter-spacing: 0.085em;
+    line-height: 1.3em;
+    font-weight: 1000;
+}
+h6{
+    font-size: 20px;
+    letter-spacing: 0.085em;
+    font-weight:400;
+    color: #fff;
+    line-height: 1.2em;
+}
+span{
+    color: #03a4ed;
+}
+
+.sec-one .text-sec1 button{
+    color: white;
+    margin-top: 30px;
+    width: 48%;
+    font-size: 20px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 4em;
+    background-color: #03a4ed;
+    border: none;
+    outline: none;
+    cursor:pointer;
+}
+
+.sec-two{
+    display:flex;
+    justify-content: space-between;
+    width: 92%;
+    margin:0 59px;
+    margin-top: -10px;
+    /* overflow:hidden; */
+}
+
+.text-sec2{
+    display:block;
+    width:80%;
+}
+.text-sec2 h6{
+    line-height: 1.8em;
+}
+.sec-two img{
+    width: 385px;
+}
+
+.underline{
+    width: 190px;
+    height: 4px;
+    background-color: #007aff;
+    margin-bottom: 25px;
+    margin-top: -10px;
+    border-radius: 4em;
+}
+
+.sec-two button{
+    background-color: #000;
+    border: none;
+    color: #007aff;
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight:500;
+}
+
+.sec-three{
+    display:block;
+    width: 92%;
+    margin:0 59px;
+    margin-top: 50px;
+    /* overflow:hidden; */
+}
+
+
+.line{
+    width: 25px;
+    height: 4px;
+    background-color: #007aff;
+    border-radius: 4em;
+    margin-bottom: -15px;
+}
+
+.sec-threebox{
+    display:flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 80px;
+    position: relative;
+}
+
+
+.text-sec3{
+    width: 40%;
+}
+.text3{
+    font-size: 1.5em;
+    letter-spacing: 0.105em;
+    color: rgb(3, 164, 237);
+    font-weight: 600;
+    line-height: 127%;
+}
+.text-sec3 .text1{
+    color: #fff;
+    font-size: 1.4em;   
+}
+.box1{
+    width: 390px;
+    height: 420px;
+    padding: 50px 84px;
+    display:block;
+    text-align: center;
+    line-height: 2em;
+    background-color: rgb(3, 25, 35);
+}
+.box1 h2{
+    font-size: 2.2em;
+    padding:24px 0;
+    color: #03a4ed;
+    line-height: 1.2em;
+}
+.box1 img{
+    position: relative;
+    top: 22%;
+    left: 20%;
+    width: 75px;
+    height: 50px;   
+}
+.box1 img{
+    position: relative;
+    top: 22%;
+    left: 20%;
+    width: 75px;
+    height: 50px;   
+}
+.box1 img{
+    position: relative;
+    top: 22%;
+    left: 20%;
+    width: 75px;
+    height: 50px;   
+}
+.box1 .img{
+    display:flex;
+    position: absolute;
+    top: -18%;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #031923;
+    box-shadow: rgba(0, 0, 0, 0.3) 7px 7px 5px;
+}
+.icon1{
+    left: 12%;
+}
+.icon2 img{
+    position: relative;
+    top: 20%;
+    left: 20%;
+    width: 75px;
+    height: 70px; 
+}
+.icon2{
+    left: 45%;
+}
+.icon3{
+    left:77%;
+}
+.icon3 img{
+    position: relative;
+    top: 20%;
+    left: 20%;
+    width: 75px;
+    height: 70px; 
+}
+.box1 button{
+    height: 40px;
+    background-color: #031923;
+    border: none;
+    outline: none;
+    color: #03a4ed;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.box1 h6{
+    line-height: 1.5em;
+    letter-spacing: inherit;
+}
+.box1:hover{
+    width: 390px;
+    height: 420px;
+    padding: 50px 84px;
+    display:block;
+    text-align: center;
+    line-height: 2em;
+    background-color:white;
+}
+.section4{
+    display:block;
+    width: 95%;
+    margin-top: 50px;
+    position: relative;
+}
+.sec-four{
+    margin: 0 68px;
+}
+.lines{
+    width: 25px;
+    height: 4px;
+    background-color: #007aff;
+    border-radius: 4em;
+    position: absolute;
+    top: 10px;
+    
+    
+}
+.section4 .sec-four{
+    margin-top: 8px;
+}
+.section4 .sec-four h6{
+    letter-spacing: 0px;
+}
+.section4 .sec-four h2{
+    font-size: 36px;
+    font-weight:300;
+    margin-bottom: 40px;
+}
+
+.section4 .sec-4 .desc4{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 358px;
+}
+.section4 .sec-4 .text5{
+    width: 70%;
+}
+.section4 .sec-4 h6{
+    line-height: 1.8em;
+    padding: 0px 20px;
+    
+}
+.section4 .sec-4 .name{
+    font-weight: 900;
+}
+
+.section4 .sec-4 .imglogo{
+    display: flex;
+    width: 31%;
+    padding: 24px;
+    margin-left: 2px;
+    position: relative;
+    border-radius: 50%;
+}
+.section4 .sec-4 .imglogo .logoos{
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #007bff;
+    position: absolute;
+    top: 30%;
+    left: 80%;
+}
+.section4 .sec-4 .imglogo img{
+    width: 100%;
+    height: 230px; 
+}
+
+.section4 .sec-4 .text5 div svg {
+    height: 50px;
+    width: 50px;
+    border:2px solid #03a4ed;
+    border-radius: 50%;
+    float: right;
+    margin: 0 8px;
+    padding: 7px;
+}
+.section4 .sec-4 .text5 div svg:hover{
+    background-color: rgba(6, 164, 237, 0.3);
+}
+.section4 .sec-4 .imglogo:hover{
+    background-color: rgba(35, 39, 41, 0.1);
+}
+
+/* Section 5 */
+.sec-5{
+    display:block;
+    margin: 0px 48px;
+    margin-top: 50px;
+    position: relative;
+    overflow:hidden;
+}
+.section5{
+    padding: 8px ;
+    margin-top: 8px;
+}
+
+.section5 h6{
+    letter-spacing: 0px;
+}
+.section5 h5{
+    font-size: 25px;
+    font-weight:300;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.3em;
+}
+.section5 .head{
+    color: rgb(3, 164, 237);
+}
+.sec5img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+
+}
+.sec5textimg .photo1 img{
+    height: 400px;
+    margin: 0 30px;
+
+}
+.sec5textimg .photo2 img{
+    position: absolute;
+    top: 0;
+}
+.pic1 img{
+    left: 275px;
+}
+.pic2 img{
+    left: 650px;
+}
+.pic3 img{
+    left: 1109px;
+}
+.sec5text{
+    margin: 1px 30px;
+}
+.sec5textimg .sec5text h6,h5{
+    color: #fff;
+}
+.sec5textimg .sec5text h5{
+    font-size: 1.5em;
+}
+.sec5textimg .sec5text img{
+    float: right;
+    position: relative;
+    top: -50px;
+    background-color: #007bff;
+}
+.lin{
+    position: relative;
+    top: 1px;
+}
+
+.section-6{
+    display: inline-block;
+    margin: 5px 24px;
+    overflow:hidden;
+}
+.section-6 .sec6txt{
+    font-family: lato,sans-serif;
+    padding: 0% 24px;
+}
+
+.section-6 .sec6txt h1{
+    letter-spacing: 0.01em;
+    font-weight: 700;
+    line-height: 1.3em;
+}
+.section-6 .sec6txt h6{
+    line-height: 1.9em;
+    letter-spacing: 0.07em;
+    font-size: 20px;
+}
+.section-6 .sec6img{
+    display: flex;
+    line-height: 1.9em;
+    padding: 0 24px;
+}
+.section-6 .sec6img h6{
+    line-height: 1.9em;
+    letter-spacing: 0.07em;
+    font-size: 20px;
+}
+.section-6 .sec6img img{
+    width: 619px;
+}
+.sec-7{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #00a5e9;
+    background: rgb(3, 25, 35);
+    margin: 0 48px;
+    border-radius: 4em;
+    overflow:hidden;
+}
+
+.sec-7 h6{
+    padding: 15px 250px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+.sec-7 button{
+    font-size: 20px;
+    font-weight: 500;
+    border: 1px solid #00a5e9;
+    background: rgb(3, 25, 35);
+    color: #fff;
+    height: 52px;
+    width: 200px;
+    border-radius: 4em;
+    margin: 20px 30px;
+    cursor: pointer;
+    letter-spacing: 0.02857em; 
+}
+.sec-7 button:hover{
+    background: rgb(3, 30, 45);
+}
+
+.section8{
+    display: inline-block;
+    margin: 30px 48px 0px 48px;
+}
+
+.secline{
+    width: 25px;
+    height: 4px;
+    background-color: #007aff;
+    position: relative;
+    top: 15px;
+    border-radius: 4em;
+    
+}
+.sec8it{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 60px;
+    overflow:hidden;
+    
+}
+.sec8it img{
+    position: relative;
+    padding:30px 0px;
+    padding-right: 10px;
+    width: 600px;
+}
+.sec8it h6{
+    position: relative;
+    top: 60px;
+    font-size: 20px;
+    padding-left: 30px;
+    word-spacing: -2px;
+    line-height: 1.8em;
+    letter-spacing:1px;
+}
+.sec8it a{
+    text-decoration: none;
+    color: #03a4ed;
+}
+.sec8it a:hover{
+    text-decoration: underline;
+}
+
+
+/* section 9 */
+.sec-9{
+    display: flex;
+    justify-content: center;
+    margin: 40px 35px 0 35px;
+    width: 95%;
+
+}
+.sec-9 img{
+    width: 476px;
+}
+.sec-9 .sec-9txt{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sec-9 .sec-9txt .heading{
+    display:block;
+    margin: 0 48px;
+}
+.sec-9 .sec-9txt .heading h1{
+    color: #03a4ed;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.sec-9 .sec-9txt .heading h6{
+    line-height: 1.6em;
+    padding:0 28px;
+    margin-bottom:-200px;
+    letter-spacing: 0.7px
+}
+.sec-9 .sec-9txt .texting{
+    position: relative;
+    top: 10px;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.sec-9 .sec-9txt .texting .texting1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 130px;
+    left: 50px;
+}
+.sec-9 .sec-9txt .texting .texting1 .textone{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+    margin:50px 80px;
+}
+
+.sec-9 .sec-9txt .texting h2{
+    color: #03a4ed;
+    font-weight: 300;
+    font-size: 2.2em;
+    margin-right: 15px;
+}
+.sec-9 .sec-9txt .texting h6{
+    line-height: 1.7em;
+    letter-spacing: normal;
+}
+.sec-10{
+    margin:0 48px;
+    overflow:hidden;
+}
+.sec-10 h5{
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    color: #03a4ed;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.sec-10 .button{
+    width: 100%;
+}
+.sec-10 .button button{
+    width: 24.5%;
+    background-color: #000;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 15px;
+}
+.sec-10 .button button:hover{
+    color: #03a4ed;
+    border-bottom: 3px solid #03a4ed;
+}
+
+.sec-10 .imghead{
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 24px;
+}
+.sec-10 .imghead .imgtxt10{
+    display: block;
+    text-align: center;
+    margin: 25px;
+}
+.sec-10 .imghead .imgtxt10 h6{
+    margin-bottom: 24px;
+}
+.sec-11{
+    margin: 40px 35px 0 35px;
+    overflow:hidden;
+}
+.heading11{
+    display: block;
+    margin: 24px 24px;
+}
+.section11{
+    display: flex;
+    justify-content: space-between;
+}
+.sec11line{
+    position: relative;
+    left: 0px;
+}
+.heading11 h6{
+    position: relative;
+    left: 30px;
+    font-weight: 500;
+}
+.heading11 h1{
+    font-weight: 300;
+    font-size: 36px;
+    color: #03a4ed;
+}
+svg{
+    width: 30px;
+}
+.sec11img{
+    display: flex;
+    padding: 0px -30px;
+    height: 450px;
+    width:600px;
+    
+}
+.sec11img img{
+    width: 384px;
+
+}
+.sec11imgtxt{
+    margin:0 20px;
+    background-color: #031923;
+    justify-content: space-between;
+    border-radius: 1.5%;
+}
+.sec11imgtxt .txt{
+    padding: 0 5px;
+}
+.sec11imgtxt .txt h6{
+    color: #03a4ed;
+    letter-spacing: 1px;
+    font-weight: 600;
+    word-spacing: 1px;
+}
+.sec11imgtxt .txt p{
+    color: #fff;
+    margin-top: 13px;
+    font-weight: 500;
+    font-size: 18px;
+    padding-left: 4px;
+    padding-right:20px;
+    padding-bottom: 15px;
+}
+.sec11imgtxt .txt p span{
+    font-size: 14px;
+    color:#fff;
+    position: relative;
+}
+
+.moon{
+    display: inline;
+    position: relative;
+}
+.bookmark{
+    position: relative;
+    left: 340px;
+    top: -25px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #031923;
+    margin-top: 120px;
+    margin-right:  0px;
+    overflow:hidden;
+
+}
+footer .footxt{
+    width: 30%;
+    height: 15px;
+    margin: 48px 48px;
+}
+footer .footxt h4{
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+}
+
+footer .footxt h6{
+    position: relative;
+    top: 30px;
+    line-height: 1.7em;
+}
+
+footer .footxt .button{
+    width: 200px;
+    display:flex;
+    justify-content: space-between;
+    position: relative;
+    top: 50px;
+    font-size: 24px;
+}
+footer .footxt .button button{
+    border: 2px solid #03a4ed;
+    background-color: #031923;
+    border-radius: 50%;
+    width:36px;
+    height: 36px;
+}
+footer .footxt .button button svg{
+    position: relative;
+    top: 2px;
+}
+footer .footxt .button :hover{
+    /* background-color: rgba(35, 39, 41, 0.9); */
+    cursor: pointer;
+}
+
+footer .link{
+    width: 30%;
+    height: 315px;
+    margin-top: 48px;
+    margin-left:  -90px;
+}
+footer .link h4{
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+}
+footer .link a{
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 36px;
+    position: relative;
+    top: 30px;
+    cursor: pointer;
+    color: #fff;
+}
+footer .link a:hover{
+    text-decoration: underline;
+}
+.secfooter{
+    height: 2px;
+    width: 40px;
+    position: relative;
+    top:40px;
+}
+footer .contact{
+    width: 30%;
+    height: 315px;
+    margin-top: 48px;
+    position: relative;
+    left: -60px;
+}
+footer .contact h4{
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+}
+footer .contact a{
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: #fff;
+    position: relative;
+    top: 30px;
+    line-height: 2em;
+
+}
+footer .contact svg{
+    position: relative;
+    top: 35px;
+    right:10px;
+
+}
+footer .contact a:hover{
+    text-decoration: underline;
+}
